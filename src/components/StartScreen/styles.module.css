@@ -11,6 +11,11 @@
     flex-direction: column;
     text-align: center;
 }
+img{
+    width: 48px;
+    height: 32px;
+    margin: 0 auto;
+}
 .currencies{
     color: #E7B50A;
     font-size: 200px;

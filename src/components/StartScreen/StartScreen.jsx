@@ -1,5 +1,5 @@
 import styles from './styles.module.css'
-
+import mainLogo from '/public/mainLogo.svg'
 const StartScreen = () => {
 	return (
 		<div className={styles.start}>
@@ -8,6 +8,7 @@ const StartScreen = () => {
 					<span>¥</span>
 					<span>€</span>
 				</div>
+				<img src={mainLogo} alt={'logo'}/>
 				<h1 className={styles.logo}>Casher</h1>
 				<span className={styles.soon}>coming soon</span>
 				<div className={styles.currencies}>
