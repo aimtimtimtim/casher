@@ -1,5 +1,8 @@
 import AddSquare from "src/components/Icons/AddSquare.jsx";
+import Expenses from "src/components/Icons/Expenses.jsx";
+import Home from "src/components/Icons/Home.jsx";
 import TopLogo from "src/components/Icons/Logo.jsx";
+import Account from "src/components/Icons/Profile.jsx";
 import styles from 'src/pages/MainScreen/styles.module.scss'
 
 const MainScreen = () => {
@@ -38,6 +41,12 @@ const MainScreen = () => {
 				</div>
 			</div>
 			
+			<div className={styles.appBar}>
+				<div className={styles.item}><Home/><span>Home</span></div>
+				<div className={styles.item}><Expenses/><span>Expenses</span></div>
+				<div className={styles.item}><Account/><span>Account</span></div>
+			</div>
+		
 		</div>
 	);
 };
