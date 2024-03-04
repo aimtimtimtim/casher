@@ -1,4 +1,4 @@
-import styles from 'src/components/StartScreen/styles.module.scss'
+import styles from './styles.module.scss'
 import mainLogo from '/public/mainLogo.svg'
 const StartScreen = () => {
 	return (

@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-import StartScreen from "src/components/StartScreen/StartScreen.jsx";
+import StartScreen from "src/pages/StartScreen/StartScreen.jsx";
 import MainScreen from "src/pages/MainScreen/MainScreen.jsx";
 import 'src/App.scss'
 

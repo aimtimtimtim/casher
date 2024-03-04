@@ -1,9 +1,8 @@
+import AppBar from "src/components/AppBar/AppBar.jsx";
+import History from "src/components/History/History.jsx";
 import AddSquare from "src/components/Icons/AddSquare.jsx";
-import Expenses from "src/components/Icons/Expenses.jsx";
-import Home from "src/components/Icons/Home.jsx";
 import TopLogo from "src/components/Icons/Logo.jsx";
-import Account from "src/components/Icons/Profile.jsx";
-import styles from 'src/pages/MainScreen/styles.module.scss'
+import styles from './styles.module.scss'
 
 const MainScreen = () => {
 	return (
@@ -28,24 +27,8 @@ const MainScreen = () => {
 				</div>
 			</div>
 		
-			<div className={styles.history}>
-				<span className={styles.historyText}>History</span>
-				<div className={styles.historyContainer}>
-					<div className={styles.historyCard}>
-						<div className={styles.details}>
-							<span className={styles.title}>MacBook</span>
-							<span className={styles.date}>12.01.24</span>
-						</div>
-						<span className={styles.cost}>23 000 TMT</span>
-					</div>
-				</div>
-			</div>
-			
-			<div className={styles.appBar}>
-				<div className={styles.item}><Home/><span>Home</span></div>
-				<div className={styles.item}><Expenses/><span>Expenses</span></div>
-				<div className={styles.item}><Account/><span>Account</span></div>
-			</div>
+			<History/>
+			<AppBar/>
 		
 		</div>
 	);
