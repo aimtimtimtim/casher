@@ -27,6 +27,7 @@ const History = () => {
 				</div>
 			
 			</div>
+			<input placeholder={'Type smthng'}/>
 		</div>
 	);
 };
