@@ -1,49 +1,49 @@
+@import '@/variables.scss';
+
+
 .userBudget {
-  margin-top: 16px;
+  margin-top: 18px;
   padding: 12px;
   border-radius: 12px;
-  display: flex;
-  gap: 6px;
-  flex-direction: column;
-  color: #37200A;
-  background-color: #F9ED79;
-  border: 0.5px solid rgba(255, 255, 255, 30%);
+  background-color: $grey-bg;
 }
 
 .budgetText {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  font-size: 22px;
-  font-weight: bold;
+  justify-content: space-between;
+
+  span {
+    font-size: 22px;
+    font-weight: bold;
+  }
 }
 
-.amountContainer {
+.currency {
+  font-size: 22px;
+  font-weight: bold;
   display: flex;
   align-items: center;
   gap: 12px;
 }
-
-.amount {
+.amount{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 6px;
   font-size: 48px;
   font-weight: bold;
 }
-
-.monthSpent {
+.monthSpent{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 6px;
   padding: 6px 0;
-  border-top: 1px solid #EBD564;
+  font-size: 14px;
+  font-weight: 500;
 }
-
-.spentText {
-  font-size: 16px;
-  font-weight: bold;
-  color: #B9A332;
-}
-
-.spentAmount {
+.spentAmount{
   font-size: 22px;
   font-weight: bold;
 }
