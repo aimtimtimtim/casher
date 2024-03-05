@@ -16,6 +16,15 @@ const History = () => {
 					245 TMT
 				</span>
 				</div>
+				<div className={styles.historyCard}>
+					<div className={styles.details}>
+						<span className={styles.title}>News</span>
+						<span className={styles.date}>12.03.24</span>
+					</div>
+					<span className={styles.amount}>
+					245 TMT
+				</span>
+				</div>
 			
 			</div>
 		</div>

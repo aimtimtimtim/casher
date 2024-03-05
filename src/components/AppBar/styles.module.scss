@@ -1,0 +1,20 @@
+@import '@/variables.scss';
+
+.AppBar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 34px;
+  padding: 12px;
+}
+.item{
+  min-width: 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 4px;
+  span{
+    font-size: 12px;
+    font-weight: 600;
+  }
+}

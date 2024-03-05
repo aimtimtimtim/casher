@@ -1,3 +1,4 @@
+import AppBar from "src/components/AppBar/AppBar.jsx";
 import History from "src/components/History/History.jsx";
 import Add from "src/components/Icons/Add.jsx";
 import Edit from "src/components/Icons/Edit.jsx";
@@ -15,7 +16,7 @@ const MainScreen = () => {
 			
 			<UserBudget/>
 			<History/>
-		
+		<AppBar/>
 		</div>
 	);
 };
